@@ -1,0 +1,14 @@
+Installation
+
+1. Install the Python Requests library from https://github.com/kennethreitz/requests
+2. Install livestreamer from https://github.com/chrippa/livestreamer
+3. Install VLC from https://videolan.org/vlc/
+4. Change TWITCH_USERNAME to your Twitch.tv username in twitch-line.py
+5. run `/path/to/twitch-line.py` or alias it or add it to your path
+
+Notes
+- You can't see chat
+- If stream crashes you have to reopen from the cli
+- If you follow over 100 people and they are all live, you will only see 100
+- No commercials (streamers don't get revenue.  Only use if you sub or donate in other ways)
+- Kappa
