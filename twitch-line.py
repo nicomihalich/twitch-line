@@ -2,6 +2,7 @@
 
 import requests
 import json
+from subprocess import call
 
 TWITCH_USERNAME = "clickMixup"
 
@@ -27,7 +28,7 @@ def get_streams():
   return streams
 
 def load_stream(url,quality="best"):
-  subprocess.call(["livestreamer", url, quality])
+  call(["livestreamer", url, quality])
 
 def print_help():
   print "r - get streams , l## - load steam number ##, q - quit"
