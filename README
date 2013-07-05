@@ -1,10 +1,12 @@
 Installation
 
+0. Install python and pip
+    - For windows users (http://stackoverflow.com/questions/4750806/how-to-install-pip-on-windows)
 1. Install the Python Requests library from https://github.com/kennethreitz/requests
 2. Install livestreamer from https://github.com/chrippa/livestreamer
 3. Install VLC from https://videolan.org/vlc/
 4. Change TWITCH_USERNAME to your Twitch.tv username in twitch-line.py
-5. run `/path/to/twitch-line.py` or alias it or add it to your path
+5. run `/path/to/twitch-line.py` or alias it or add it to your path or some combination of all 3
 
 Notes
 - You can't see chat
