@@ -27,7 +27,7 @@ def get_streams():
     streams.append(Stream(stream['url'],stream['display_name'],stream['game'],stream['status']))
   return streams
 
-def load_stream(url,quality="best"):
+def load_stream(url,quality="source"):
   call(["livestreamer", url, quality])
 
 def print_help():
