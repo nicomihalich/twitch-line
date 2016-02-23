@@ -38,7 +38,10 @@ def print_welcome():
   print_help()
 
 def print_stream(i,stream):
-  print str(i) + '. ' + stream.name + ", playing " + stream.game + " : " + stream.status
+  name = stream.name or ''
+  game = stream.game or ''
+  status = stream.status or ''
+  print str(i) + '. ' + name + ", playing " + game + " : " + status
 
 def print_streams(streamlist):
   for i, stream in enumerate(streamlist):
